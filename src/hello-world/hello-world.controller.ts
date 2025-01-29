@@ -6,11 +6,11 @@ export class HelloWorldController {
 
 
   constructor(private helloWorldService : HelloWorldService) {
+
   }
 
   @Get('/')
   show() {
-
     return this.helloWorldService.show();
   }
 
