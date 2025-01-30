@@ -1,3 +1,3 @@
-export class CreateObjectiveDto{
-  title : string
+export class CreateObjectiveDto {
+  title: string;
 }

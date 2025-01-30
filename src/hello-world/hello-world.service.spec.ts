@@ -12,25 +12,13 @@ describe('HelloWorldService', () => {
     service = module.get<HelloWorldService>(HelloWorldService);
   });
 
-
-
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
 
-
-  describe("show function", ()=>{
-
-
-
-    it("should return the hello world", ()=>{
-      expect(service.show()).toBe("hello world");
-    })
-  })
-
-
-
-
-
-
+  describe('show function', () => {
+    it('should return the hello world', () => {
+      expect(service.show()).toBe('hello world');
+    });
+  });
 });

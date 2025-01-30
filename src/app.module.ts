@@ -6,7 +6,12 @@ import { PrismaService } from './prisma/prisma.service';
 import { KeyresultsModule } from './keyresults/keyresults.module';
 
 @Module({
-  imports: [HelloWorldModule, ObjectivesModule, DatabaseModule, KeyresultsModule],
+  imports: [
+    HelloWorldModule,
+    ObjectivesModule,
+    DatabaseModule,
+    KeyresultsModule,
+  ],
   controllers: [],
   providers: [PrismaService],
 })
