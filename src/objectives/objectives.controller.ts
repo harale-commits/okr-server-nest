@@ -7,9 +7,8 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { ObjectivesService } from './objectives.service.js';
+import { ObjectivesService } from './objectives.service';
 import { CreateObjectiveDto } from './create-objective.dto';
-import { CreateKeyresultDto } from '../keyresults/create-keyresult.dto';
 
 @Controller('objectives')
 export class ObjectivesController {
